@@ -143,3 +143,36 @@ select {
   background: white;
   color: rgb(0, 107, 255);
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+  .todo-list {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  form input {
+    width: 50%;
+    margin-left: 1rem;
+  }
+  .todo-list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header h1 {
+    text-align: center;
+  }
+
+  form input {
+    width: 80%;
+    margin-left: 1rem;
+  }
+
+  .todo-list {
+    width: 100%;
+  }
+}
