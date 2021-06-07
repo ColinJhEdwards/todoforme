@@ -2,7 +2,7 @@
 
 A simple todo list with functioning local storage
 
-https://github.com/colinjhedwards/todoforme
+https://colinjhedwards.github.io/todoforme/
 
 ![image-of-webpage](preview.png)
 
